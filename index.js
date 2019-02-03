@@ -11,7 +11,12 @@ drivers.push("Ralph");
 function destructivelyPrependDriver(name) {
   drivers.unshift("Bob");
 }
-function destructivelyRemoveDriver(name) {
+
+function destructivelyLastDriver {
+    drivers.pop();
+}
+
+function destructivelyRemoveDriver {
   drivers.shift();
 
 }
